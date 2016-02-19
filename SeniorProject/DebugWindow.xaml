@@ -1,0 +1,15 @@
+﻿<Window x:Class="SeniorProject.DebugWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SeniorProject"
+        mc:Ignorable="d"
+        Title="DebugWindow" Height="688.394" Width="477.807">
+    <Grid Margin="0,0,2,0">
+        <Canvas x:Name="container" HorizontalAlignment="Left" Height="321" VerticalAlignment="Top" Width="468">
+            <DataGrid x:Name="dataGrid" Height="657" Width="468"/>
+        </Canvas>
+
+    </Grid>
+</Window>
